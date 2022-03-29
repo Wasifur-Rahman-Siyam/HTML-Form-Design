@@ -73,3 +73,33 @@
 .radio-inline-group{
     display: flex;
 }
+
+
+.radio-inline {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-right: 2rem;
+}
+
+.bio textarea{
+    height: 120px;
+    resize: none;
+}
+
+.btn{
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #000;
+    color:#fff;
+    border: 2px solid #000;
+    border-radius: 0.25rem;
+}
